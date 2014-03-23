@@ -19,6 +19,8 @@
 		B22577F118DF501D0039A610 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B22577D918DF501D0039A610 /* UIKit.framework */; };
 		B22577F918DF501D0039A610 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B22577F718DF501D0039A610 /* InfoPlist.strings */; };
 		B22577FB18DF501D0039A610 /* testTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B22577FA18DF501D0039A610 /* testTests.m */; };
+		B2ED761618DF729500FDB7FB /* FirstVC.m in Sources */ = {isa = PBXBuildFile; fileRef = B2ED761418DF729500FDB7FB /* FirstVC.m */; };
+		B2ED761718DF729500FDB7FB /* FirstVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = B2ED761518DF729500FDB7FB /* FirstVC.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +50,9 @@
 		B22577F618DF501D0039A610 /* testTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "testTests-Info.plist"; sourceTree = "<group>"; };
 		B22577F818DF501D0039A610 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		B22577FA18DF501D0039A610 /* testTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = testTests.m; sourceTree = "<group>"; };
+		B2ED761318DF729500FDB7FB /* FirstVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstVC.h; sourceTree = "<group>"; };
+		B2ED761418DF729500FDB7FB /* FirstVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstVC.m; sourceTree = "<group>"; };
+		B2ED761518DF729500FDB7FB /* FirstVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FirstVC.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +116,9 @@
 				B22577E518DF501D0039A610 /* AppDelegate.m */,
 				B22577E718DF501D0039A610 /* Images.xcassets */,
 				B22577DC18DF501D0039A610 /* Supporting Files */,
+				B2ED761318DF729500FDB7FB /* FirstVC.h */,
+				B2ED761418DF729500FDB7FB /* FirstVC.m */,
+				B2ED761518DF729500FDB7FB /* FirstVC.xib */,
 			);
 			path = test;
 			sourceTree = "<group>";
@@ -221,6 +229,7 @@
 			files = (
 				B22577E018DF501D0039A610 /* InfoPlist.strings in Resources */,
 				B22577E818DF501D0039A610 /* Images.xcassets in Resources */,
+				B2ED761718DF729500FDB7FB /* FirstVC.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -240,6 +249,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B22577E618DF501D0039A610 /* AppDelegate.m in Sources */,
+				B2ED761618DF729500FDB7FB /* FirstVC.m in Sources */,
 				B22577E218DF501D0039A610 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -441,6 +451,7 @@
 				B225780018DF501D0039A610 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B225780118DF501D0039A610 /* Build configuration list for PBXNativeTarget "testTests" */ = {
 			isa = XCConfigurationList;
@@ -449,6 +460,7 @@
 				B225780318DF501D0039A610 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
